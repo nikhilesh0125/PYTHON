@@ -1,0 +1,8 @@
+import qrcode
+qr=qrcode.qrcode
+a="tmc is hamba hamba"
+qr.add-data(a)
+qr.make(fit=true)
+res=qr.make-image(fill_colour="white",back_clour="balck")
+res-save("nikhil.png")
+print("created nikhil")
