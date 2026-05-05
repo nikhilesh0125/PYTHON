@@ -1,0 +1,34 @@
+country="INDIA"
+class ace:
+    col="ACE COLLEGE"
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1.NAME",self.name)
+        print("2.MARKS",self.tot)
+        print("3.COLLEGE",ace.col)
+        print("4.COUNTRY",country)
+class vbit:
+    col="VBIT COLLEGE"
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1.NAME",self.name)
+        print("2.MARKS",self.tot)
+        print("3.COLLEGE",vbit.col)
+        print("4.COUNTRY",country)
+
+a=ace()
+a2=ace()
+c=vbit()
+c2=vbit()
+a.set_dim(100,75,50,"susheel")
+a2.set_dim(45,70,90,"ramya")
+c.set_dim(19,39,69,"pavan")
+c2.set_dim(91,49,99,"karthik")
+a.display()
+a2.display()
+c.display()
+c2.display()
